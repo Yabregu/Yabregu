@@ -1,0 +1,68 @@
+body{
+	background-color: #d8eacc !important;
+}
+#barraMenu{
+	min-height: 48px; 
+	margin-bottom: 0px; 
+	top: 0px; 
+	position: fixed; 
+	width: 100%;
+}
+#logoMenu > img{
+	width : 200px
+}
+#logoMenu{
+	margin-top : -9px
+}
+#divContainerGeneral { 
+	margin: 70px auto;
+}
+@media (min-width: 1260px){
+	#divContainerGeneral {
+    width: 1190px; 
+	}
+}
+.contentSubList{
+	
+}
+.eventoGeneral {
+    background: white;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    border: 1px solid #9da3a2;
+}
+.titleSubList {
+    min-height: 60px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #82b55c;
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px;
+    color: #82b55c;
+}
+#divListModules {
+    width: 270px;
+    height: 100%;
+    float: left;
+    color: #82b55c;
+    font-weight: 600;
+}
+#divListPrincipal {
+    width: 600px;
+    height: 100%;
+    float: left;
+    margin: 0 10px;
+}
+#divListSecundaria {
+    float: left;
+    width: 290px;
+    height: 100%;
+}
+#divListSecundaria > img{
+	width : 100%
+}
