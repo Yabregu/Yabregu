@@ -1,6 +1,9 @@
 body{
 	background-color: #d8eacc !important;
 }
+.titleInformation{
+	font-weight : 700;
+}
 #barraMenu{
 	min-height: 48px; 
 	margin-bottom: 0px; 

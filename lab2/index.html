@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="UTF-8">
+
 <link href="../lib/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="../css/custom-bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../css/styleme.css" rel="stylesheet" type="text/css">
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="../images/logoIco.ico" rel="shortcut icon" type="image/x-icon">
 <title>WAP Dashboard</title>
@@ -39,35 +42,124 @@
 		<div id="divListModules">
 		
 		<ul class="list-group">
-		<li class="list-group-item"  onclick=" ">
+		<li class="list-group-item" id="liLab1"  onclick=" ">
 		<i class="fa fa-user-circle-o " aria-hidden="true"> </i> Lab 1</li>
-		<li class="list-group-item"  style="    background: #dceccd !important;border: 1px solid #77b152;">
+		<li class="list-group-item" id="liLab2"   >
 		<i class="fa fa-user-circle-o " aria-hidden="true"> </i> Lab 2</li>
-		<li class="list-group-item"  onclick=" ">
+		<li class="list-group-item" id="liLab3"  onclick=" ">
 		<i class="fa fa-user-circle-o " aria-hidden="true"> </i> Lab 3</li>
-		<li class="list-group-item"  onclick=" ">
+		<li class="list-group-item" id="liLab4"  onclick=" ">
 		<i class="fa fa-user-circle-o " aria-hidden="true"> </i> Lab 4</li>
 		</ul>
 		
 		</div>
 		<div id="divListPrincipal">
-			<div class="titleSubList"> Successful development of about me page! </div>
+			<div class="titleSubList"> Personal information </div>
 			<div class="contentSubList"> 
 				<div class="eventoGeneral">
-				
-				-Startig time 2:30
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >Name</div> 
+				<div class="col-sm-8">Yacid Abregu</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >Description</div> 
+				<div class="col-sm-8"><strong>Perseverant</strong> student and worker, if there is a problem there is a <strong>solution</strong></div>
+				</div>
 				</div>
 			</div>
-		</div>
+			<div class="titleSubList"> Courses  </div>
+			<div class="contentSubList"> 
+				<div class="eventoGeneral">
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >CS401</div> 
+				<div class="col-sm-8">Modern Programming Practices</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >CS523</div> 
+				<div class="col-sm-8">Big Data Technology</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >CS472</div> 
+				<div class="col-sm-8">Web Programming</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >CS425</div> 
+				<div class="col-sm-8">Software Engineering</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >CS545</div> 
+				<div class="col-sm-8">	Web Application Architecture</div>
+				</div>
+				 
+				</div>
+			</div>
+			<div class="titleSubList"> My favorite books </div>
+			<div class="contentSubList" id="contentFavoriteBooks"> 
+				<div class="eventoGeneral">
+				<div class="row"> 
+				<div class="col-sm-12">1. Fall of Giants (Ken Follet, 2010) 
+				(<a href="https://www.amazon.com/Fall-Giants-Book-Century-Trilogy/dp/0451232852" target="_blank">Amazon</a>)
+				<dl>
+					<dt>Genre</dt>
+					<dd>Fiction</dd>
+					<dt>Price</dt>
+					<dd>$ 9.69</dd>
+					
+					<dt>Tagline</dt>
+					<dd>Ken Follett’s magnificent new historical epic begins as five interrelated families move through the momentous dramas of the First World War, the Russian Revolution, and the struggle for women’s suffrage. </dd>
+					<dt>Main characters</dt>
+					<dd>Billy Williams, Cound Fitz, Lady Maud, Grigory Peshkov</dd>
+					</dl>
+				</div>
+				
+				 
+				
+				
+				
+					 
+				<div class="col-sm-12">2. World Without End (Ken Follet, 2007) (<a href="https://www.amazon.com/World-Without-End-Novel-Kingsbridge/dp/0451228375" target="_blank">Amazon</a>)</div>
+				 
+				<div class="col-sm-12">3. The Old Man and the Sea (Ernest Hemingway, 1951) (<a href="https://www.amazon.es/Old-Man-Sea-Ernest-Hemingway/dp/0684801221" target="_blank">Amazon</a>)</div>
+				 </div>
+				</div>
+				
+				</div>
+				<div class="titleSubList"> My moods</div>
+			<div class="contentSubList"> 
+				<div class="eventoGeneral">
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >Happy</div> 
+				<div class="col-sm-8"> <img style="width: 200px" src="../images/happy.jpg" alt="happy"> </div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >Sad</div> 
+				<div class="col-sm-8">  <img style="width: 200px" src="../images/sad.jpg"  alt="sad"></div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="titleSubList"> Fun facts about my neighbors</div>
+			<div class="contentSubList"> 
+				<div class="eventoGeneral">
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >In front</div> 
+				<div class="col-sm-8">  He drinks a lot of cofee </div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4 titleInformation" >To my right</div> 
+				<div class="col-sm-8">  He goes jogging most of the days at 6 a.m. </div>
+				</div>
+				</div>
+			</div>
+			</div>
+			
+			
+		 
 		<div id="divListSecundaria">
-			 
-			<a
-href="https://validator.w3.org/check/referer"> <img
-src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
-alt="html validator"/></a>
+			<a href="https://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img src="	http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="css validator"/></a>
 		</div>
-
+ 
 	</div>
-	
 	</body>
 	</html>
