@@ -1,0 +1,36 @@
+#divContainerGeneral{
+	margin: 0px;
+    width: 100%;
+}
+#divListPrincipal{
+	width: 100%;
+	margin: 0px;
+}
+.titleSubList{
+	font-size: 18px;
+    text-decoration: underline;
+	color : #A4A400;
+	background-color : #F0F0F0;
+	font-family : Lucida Sans Unicode, Helvetica, Arial, Sans-serif
+}
+#titleHeader{
+	text-align : center;
+	font-size: 22px;
+	font-weight : 900;
+}
+body{
+	background-color : white;
+}
+.rowYellow{
+	background-color : #ffffa8;
+	width : 1000px;
+	margin: 10px auto 10px auto;
+}
+a{
+	color : #A4A400;
+	text-decoration : underline;
+	font-weight: 400;
+}
+.rowCopyright,.rowVerifications{
+	text-align : right
+}
