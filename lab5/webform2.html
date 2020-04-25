@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0154)https://sakai.cs.miu.edu/access/content/attachment/4a213225-09cb-44ff-bffa-08a7a4ffb271/Assignments/61a6b072-e617-4b77-af43-dfadc90e7138/htmlSkeleton.html -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Webform 2</title> 
+		<link href="webform2.css" type="text/css" rel="stylesheet">
+	</head>
+
+
+<body>
+<div id="header">
+<div id="headerLeft">
+<div id="headerTitle">MUM Golden Dome Market:: SRM System</div>
+<div class="headerItem">Products</div>
+<div class="headerItem">Suppliers</div>
+</div>
+<div id="headerRight">
+<div id="hello">Hello!</div>
+<div id="buttonHeader"><button>Sign out</button></div>
+
+</div>
+
+</div>
+<div id="title">
+<p>New Product Form</p>
+</div>
+
+<form id="formContainer" action="#">
+<div id="formLeft">
+<div class="inputContainer">
+<label for="inputNumber">Product Number</label>
+<input name="inputNumber"  id="inputNumber"  placeholder=""  >
+</div>
+
+<div class="inputContainer">
+<label for="inputName">Name</label>
+<input name="inputName"  id="inputName"  placeholder=""  >
+</div>
+
+<div class="inputContainer">
+<label for="inputPrice">Unit Price</label>
+<input name="inputPrice"  id="inputPrice" type="number"  placeholder=""  >
+</div>
+</div>
+<div id="formRight">
+<div class="inputContainer">
+<label for="inputQua">Quantoty in stock</label>
+<input name="inputQua"  id="inputQua" type="number"  placeholder=""  >
+</div>
+
+<div class="inputContainer">
+<label for="inputSup">Supplier</label>
+<select name="inputSup"  id="inputSup"     >
+<option value="0" selected >Select a supplier</option>
+<option value="1">Supp 1</option>
+<option value="2">Supp 2</option>
+</select>
+</div>
+
+<div class="inputContainer">
+<label for="inputDate">Date supplied</label>
+<input name="inputDate"  id="inputDate"  placeholder="yyyy-mm-dd"  >
+<small>Enter a valid date</small>
+</div>
+
+
+</div>
+<div class="inputContainer" id="buttonContainer">
+<button id="reset">Reset</button>
+<button id="cancel">Cancel</button>
+<button id="addProduct">Add product</button>
+</div>
+
+
+</form>
+
+</body>
+
+</html>

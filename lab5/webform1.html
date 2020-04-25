@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- saved from url=(0154)https://sakai.cs.miu.edu/access/content/attachment/4a213225-09cb-44ff-bffa-08a7a4ffb271/Assignments/61a6b072-e617-4b77-af43-dfadc90e7138/htmlSkeleton.html -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Webform 1</title> 
+		<link href="webform1.css" type="text/css" rel="stylesheet">
+	</head>
+
+<body>
+
+<form id="formContainer" action="#">
+<div class="inputContainer">
+<label for="inputEmail" >Email Address</label>
+<input type="text" placeholder="Enter email" id="inputEmail" >
+<small>We'll never share your email with anyone else</small>
+</div>
+<div class="inputContainer">
+<label for="inputPass" >Password</label>
+<input type="password"   name="inputPass"  title="Must contain at least 10 characters, one number, one upper case and one lower case" 
+pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" placeholder="Password" id="inputPass" >
+</div>
+<div class="inputContainer">
+<input type="checkbox" id="checkMeOut">
+<label for="checkMeOut">Check Me Out</label>
+</div>
+<div class="inputContainer">
+<label for="inputUrl">URL</label>
+<input name="inputUrl"  id="inputUrl" pattern="^(https://|http://)" placeholder="Enter URL" title="Must start with https:// or http://">
+
+</div>
+
+
+<div class="inputContainer">
+<button type="submit">Submit</button>
+</div>
+
+</form>
+
+</body>
+
+</html>
