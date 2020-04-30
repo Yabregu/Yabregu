@@ -1,0 +1,51 @@
+#functionGeneral{
+	width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+	color: #5178d0;
+    border: 1px solid #5178d0;
+    padding: 8px 14px;
+    background-color: white;
+    border-radius: 6px;
+}
+button:hover{
+	background-color: #5178d0;
+	color : white;
+}
+.functionContainer{
+	    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    text-align: center;
+}
+input {
+	width : 100%;
+}
+.functionNum{
+	width: 20%;
+    float: left;
+    text-align: center;
+	padding-top: 6px;
+}
+.functionParams{
+	width: 20%;
+    float: left;
+    text-align: center;
+	padding-left: 20px;
+}
+.functionButton{
+	width: 20%;
+    float: left;
+    text-align: center;
+}
+.functionResult{
+	width: 40%;
+    float: left;
+    text-align: center;
+	padding-top: 6px;
+}
