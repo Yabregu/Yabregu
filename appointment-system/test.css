@@ -1,0 +1,373 @@
+body{
+margin : 0px;
+font-family: arial,sans-serif;
+}
+
+#containerGeneral,.containerGeneral{
+	background-image: url(tenor.gif);
+	background-image: url(meditation.jpg);
+	background-image: url(meditation2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding: 25px;
+    box-sizing: border-box;
+}
+#containerSubGeneral{
+box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #e2a98e;
+}
+#containerLogin{
+   background-color: rgba(10, 10, 10, 0.75);
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+	
+}
+#fraseInspiradora{
+	font-size: 15px;
+    margin-bottom: 15px;
+	
+}
+#imgLogo{
+	height : 100px;
+	border-radius : 50px;
+}
+#tituloLogin{
+	font-weight : 600;
+	font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.formRowInput, .formRowButton{
+	width : 100%;
+	padding : 10px;
+	margin-top : 10px;
+    box-sizing: border-box;
+}
+.formRowInput > input{
+	padding: 10px 8px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #6b5a42;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.77);
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+	
+    
+}
+.formRowInput > input:focus{
+	outline : none
+}
+.formRowButton{
+	text-align : center;
+}
+.formRowButton > button{
+	border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    border: 1px solid #eadfdf;
+    background-color: #0000005c;
+}
+
+/*Appointment system*/
+#containerGeneralMain{
+	    padding: 0;
+    display: grid;
+    grid-template-rows: 35px 40px auto;
+	background-image : none;
+}
+#containerTop{
+	background-color: white;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    color: #7b9e60;
+    font-weight: 100;
+    font-size: 14px;
+	
+}
+
+#containerImagen{
+	width : 200px;
+	padding-left: 20px;
+	display: flex;
+    align-items: center;
+}
+#containerImagen > img{
+	height : 26px;
+}
+#containerNombre{
+	flex-grow : 10;
+	text-align: center;
+	display: flex;
+    align-items: center;
+	    justify-content: center;
+}
+#containerUsuario{
+	align-items: center;
+    justify-content: center;
+    width: 200px;
+    display: flex;
+    padding-right: 30px;
+    border-left: 1px solid black;
+	
+}
+#containerUsuario:hover{
+	background-color: #7b9e60;
+    color: white;
+    border-bottom: 1px solid white;
+	cursor : pointer
+}
+#containerUsuario i{
+	font-size: 20px;
+}
+#divOpcionesUsuario{
+	position: absolute;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #c1aaaa;
+    display: none;
+    color: #7b9e60;
+    top: 0;
+    right: 5px;
+    border-radius: 0px 0px 6px 6px;
+	font-size: 13px;
+}
+#divOpcionesUsuario > div{
+	padding : 10px;
+}
+#divMyAccount{
+	font-weight : 900;
+}
+#divCloseSession{
+	border-top: 1px solid #7b9e60
+}
+#divCloseSession:hover{
+	background-color: #7b9e60;
+    color: white;
+    border-bottom: 1px solid white;
+	cursor : pointer
+}
+#containerActions{
+	background-color: #7b9e60;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 37px;
+    position: relative;
+}
+/*#containerActions */
+button{
+	border-radius: 10px;
+    padding: 7px 7px;
+    color: white;
+    border: 1px solid #eadfdf;
+    background-color: #255f165c;
+}
+#containerBodyMain{
+      width: 100%;
+    max-height: 100%;
+    color: white;
+    grid-row: 3;
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    box-sizing: border-box;
+	overflow-y: hidden;
+	
+}
+#containerLeft,#containerCenter,#containerRight{
+	border : 1px solid #b5adad;
+}
+#containerLeft{
+	width : 200px;
+    background: #7b9e60;
+}
+#containerCenter{
+	width : 400px;
+	    overflow-y: scroll;
+}
+#containerRight{
+	flex-grow : 10;
+	padding: 16px;
+}
+
+.liModulo{
+	text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    color: #fffdfd;
+}
+.liModulo > i{
+	margin-right : 10px;
+}
+.liModulo:hover{
+	background-color : #719059;
+	cursor : pointer;
+}
+.liModuloActive{
+	background-color : #485f37 !important;
+}
+/*Center*/
+.divSectionAppointment{
+	padding: 5px;
+    background-color: #6f8e57;
+    font-size: 13px;
+	border-bottom: 1px solid white;
+}
+
+.liAppointment:hover{
+	background-color : #516b3e !important;
+	color : white !important;
+}
+.liAppointmentActive{
+	background-color: #516b3e !important;
+	color : white !important;
+	border-left: 6px solid #324235 !important;
+}
+.liAppointment{
+	    height: 50px;
+    padding: 10px;
+    border: 1px solid #8c8888;
+    background-color: #ffffff;
+    color: #7b9e60;
+}
+.liAppointment > p{
+	margin: 0;
+	font-size: 13px;
+}
+.pUserName{
+	font-weight : 800;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7b9e60; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5e7949; 
+}
+
+
+/*Container rgiht*/
+.descriptionTitle{
+	display: inline;
+    color: black;
+    font-size: 25px;
+}
+
+.buttonTitle{
+	background-color: #485f37;
+	    margin-left: 10px;
+} 
+.divDescriptionLabel{
+	color: black;
+    width: 160px;
+    font-size: 15px;
+    font-weight: 700;
+	margin-top : 10px;
+	margin-bottom: 4px;
+}
+.divDescriptionInfo{
+	color: black;
+	display : inline;
+}
+/*INPUTS*/
+.divDescriptionInfo  input{
+	width: 100%;
+    height: 20px;
+    padding: 14px;
+    border-radius: 5px;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid #8b8e88;
+    background-color: white;
+}
+.divDescriptionInfo select{
+	width: 100%; 
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid #8b8e88;
+    background-color: white;
+}
+#tableAppointmentDescription{
+	width : 100%;
+	color : black;
+	margin-top : 10px;
+	border-collapse: collapse;
+}
+#tableAppointmentDescription tbody tr td{
+	border-bottom : 1px solid black;
+	text-align : center;
+	padding : 3px;
+}
+#tableAppointmentDescription input{
+	height : 18px;
+	width : 18px;
+}
+
+#tableAppointmentDescription button{
+	border-radius: 28px;
+    background-color: #485f37;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
